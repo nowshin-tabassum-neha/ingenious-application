@@ -104,9 +104,7 @@ export default function Home() {
     <div className={classes.extraTop}>
       {auth.isAuthenticated().user && (
         <div>
-          <Link to={"/feed"}>
-            <Button>My Feed</Button>
-          </Link>
+
           <Card className={`${classes.card} ${classes.enrolledCard}`}>
             <Typography
               variant="h6"
